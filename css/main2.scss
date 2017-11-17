@@ -1,0 +1,44 @@
+$neon-white: rgba(#fff, .4);
+$neon-pink: #ff00de;
+$neon-blue: #0052ff;
+
+body {
+  background: #000;
+}
+
+.neon {
+  text-align: left;
+  margin: 60px;
+  font-family: "Museo";
+  display: inline-block;
+  position: relative;
+  font-size: 10em; text-transform: uppercase;
+  color: #fff;
+
+   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $neon-white, 0 0 70px $neon-white, 0 0 80px $neon-white, 0 0 100px $neon-white, 0 0 150px $neon-white;
+
+}
+
+.neon--pink  {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $neon-pink, 0 0 70px $neon-pink, 0 0 80px $neon-pink, 0 0 100px $neon-pink, 0 0 150px $neon-pink;
+}
+
+.neon--blue  {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $neon-blue, 0 0 70px $neon-blue, 0 0 80px $neon-blue, 0 0 100px $neon-blue, 0 0 150px $neon-blue;
+}
+
+
+@keyframes pulse {
+  from {opacity: .6}
+  to {opacity: .2}
+}
+.neon--blue:after  {
+  position: absolute;
+  font-weight: 100;
+  letter-spacing: 7px;
+  top: 0;
+  color: $neon-white;
+  display: block;
+  content: attr(text);
+  animation: pulse .6s alternate infinite;
+}
