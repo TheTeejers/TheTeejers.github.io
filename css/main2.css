@@ -40,21 +40,22 @@ a:hover {
   text-shadow: 1px 1px 1px yellow;
 }
 
-.headerNameHome {
+.headerName, .headerNameOn {
   font-family: 'Orbitron', sans-serif;
   font-size: 30px;
   flex-grow: 5;
   margin: 15px 20px 0 20px;
-  color: #182D34;
 }
 
 .headerName {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 30px;
-  flex-grow: 5;
-  margin: 15px 20px 0 20px;
   color: #182D34;
 }
+
+.headerNameOn {
+  color: #F1F4F5;
+  text-shadow: 0px 0px 45px #18E5BC;
+}
+
 
 .headerLinks {
 margin: 20px 10px 10px 10px;
