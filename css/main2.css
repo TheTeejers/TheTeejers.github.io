@@ -87,7 +87,7 @@ font-family: 'Comfortaa', cursive;
 
 
 .letterBox01:hover {
-  box-shadow: 0px 0px 5px 0px #18E5BC, inset 0px 0px 30px 0px #18E5BC;
+  box-shadow: 0px 0px 5px 0px #18E5BC, inset 0px 0px 15px 0px #18E5BC;
   border: 1px solid none;
   border-radius: 10px;
   color: #272d34;
