@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Comfortaa:300,400,700|Orbitron:400,500,700,900|Poiret+One|Yellowtail');
+
+/*font-family: 'Poiret One', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Architects Daughter', cursive;*/
+
+
 html, body {
   height: 100%;
   width: 100%;
   background-color: #272d34;
+}
+
+.titleName {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  animation: flickr-letters .912s ease-in-out .304s infinite alternate both;
 }
 
 .frame {
@@ -198,7 +213,8 @@ html, body {
   border: 3px solid;
 }
 
-
+    from {text-shadow: 3px 3px 5px #ba8b00;}
+    to {text-shadow : 0px 0px 50px #21E3E8;}
 
 
 
@@ -214,6 +230,17 @@ html, body {
     background: #1A1E24;
     border-color: #1A1E24;
     box-shadow: 0px 0px 0px 1px #1A1E24;
+  }
+}
+
+@keyframes flickr-letters {
+  35%, 37%, 39%, 41%, 100% {
+    color: #F1F4F5;
+    text-shadow: 0px 0px 50px #21E3E8;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    color: #1A1E24;
+    text-shadow: 0px 0px 0px #1A1E24;
   }
 }
 

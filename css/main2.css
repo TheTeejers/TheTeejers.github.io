@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Comfortaa:300,400,700|Orbitron:400,500,700,900|Poiret+One|Yellowtail');
+
+/*font-family: 'Poiret One', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Architects Daughter', cursive;*/
+
+
+html, body {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  background-color: #272d34;
+}
+
+
+header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #F1F4F5;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  transition: color 200ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+
+}
+
+
+a:hover {
+  box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;
+  border: 1px solid none;
+  border-radius: 10px;
+  color: #272d34;
+  text-shadow: 1px 1px 1px yellow;
+}
+
+.headerNameHome {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  flex-grow: 5;
+  margin: 15px 20px 0 20px;
+  color: #182D34;
+}
+
+.headerName {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  flex-grow: 5;
+  margin: 15px 20px 0 20px;
+  color: #182D34;
+}
+
+.headerLinks {
+margin: 20px 10px 10px 10px;
+font-family: 'Comfortaa', cursive;
+}
+
+.pageTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*position: absolute;*/
+  width: 100%;
+  /*height: 150x;*/
+  margin: 50px auto;
+  border-radius: 10px;
+  /*overflow: hidden;*/
+  background: #272c34;
+}
+
+.letterBox01, .letterBox02 {
+  width: 100px;
+  height: 142px;
+  margin: 10px 3px 10px 3px;
+  border: 1px solid #272d34;
+  border-radius: 10px;
+  transition: box-shadow 200ms ease-in-out;
+  overflow: visible;
+}
+
+
+.letterBox01:hover {
+  box-shadow: 0px 0px 5px 0px #18E5BC, inset 0px 0px 30px 0px #18E5BC;
+  border: 1px solid none;
+  border-radius: 10px;
+  color: #272d34;
+  text-shadow: 1px 1px 1px yellow;
+}
+
+.line01{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*top row*/
+.part0101 {
+  margin: 4px 1px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0102 {
+  margin: 4px 4px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+/*end top row*/
+
+/*second row*/
+.part0103 {
+  margin: 2px 1px 0px 4px;
+  height: 45px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0104 {
+  transform: rotate(-35deg);
+  margin: 2px 1px 0px 15px;
+  height: 50px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0105 {
+  margin: 2px 1px 0px 15px;
+  height: 48px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0106 {
+  transform: rotate(35deg);
+  margin: 2px 1px 0px 15px;
+  height: 50px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0107 {
+  margin: 2px 4px 0px 15px;
+  height: 45px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+/*end second row*/
+
+/*middle row*/
+.part0108 {
+  margin: 0px 1px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0109 {
+  margin: 0px 4px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+/*end middle row*/
+
+/*fourth row*/
+.part0110 {
+  margin: 2px 1px -2px 4px;
+  height: 45px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0111 {
+  transform: rotate(35deg);
+  margin: 2px 1px -2px 15px;
+  height: 50px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0112 {
+  margin: 2px 1px -2px 15px;
+  height: 48px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0113 {
+  transform: rotate(-35deg);
+  margin: 2px 1px -2px 15px;
+  height: 50px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0114 {
+  margin: 2px 4px -2px 15px;
+  height: 45px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+/*end fourth row*/
+
+/*bottom row*/
+.part0115 {
+  margin: 0px 1px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+
+.part0116 {
+  margin: 0px 4px 0px 4px;
+  width: 40px;
+  border: 3px solid #272d34;
+  border-radius: 9px;
+}
+/*end bottom rox*/
+
+/*first letter animation*/
+/*T*/
+.letterLineHome0101, .letterLineHome0102, .letterLineHome0105, .letterLineHome0112 {
+  animation: flickr .08s ease-in-out .004s 4 alternate both;
+}
+
+/*second letter animation*/
+/*J*/
+.letterLineHome0201, .letterLineHome0202, .letterLineHome0205, .letterLineHome0210, .letterLineHome0212, .letterLineHome0215 {
+  animation: flickr .06s ease-in-out .00001s 8 alternate both;
+}
+
+/*third letter animation*/
+
+/*fourth letter animation*/
+/*L*/
+.letterLineHome0403, .letterLineHome0410, .letterLineHome0415, .letterLineHome0416 {
+  animation: flickr .009s ease-in-out .0006s 20 alternate both;
+}
+
+/*fifth letter animation*/
+/*O*/
+.letterLineHome0501, .letterLineHome0502, .letterLineHome0503, .letterLineHome0507, .letterLineHome0510, .letterLineHome0514, .letterLineHome0515, .letterLineHome0516 {
+  animation: flickr .04s ease-in-out .09s 6 alternate both;
+}
+
+/*sixth letter animation*/
+/*U*/
+.letterLineHome0603, .letterLineHome0607, .letterLineHome0610, .letterLineHome0614, .letterLineHome0615, .letterLineHome0616 {
+  animation: flickr .03s ease-in-out .0109s 22 alternate both;
+}
+
+/*seventh letter animation*/
+/*G*/
+.letterLineHome0701, .letterLineHome0702, .letterLineHome0703, .letterLineHome0709, .letterLineHome0710, .letterLineHome0714, .letterLineHome0715, .letterLineHome0716 {
+  animation: flickr .05s ease-in-out .025s 16 alternate both;
+}
+
+/*eighth letter animation*/
+/*H*/
+.letterLineHome0803, .letterLineHome0807, .letterLineHome0808, .letterLineHome0809, .letterLineHome0810, .letterLineHome0814 {
+  animation: flickr .005s ease-in-out .05s 304 alternate both;
+}
+
+/*ninth letter animation*/
+/*R*/
+.letterLineHome0901, .letterLineHome0902, .letterLineHome0903, .letterLineHome0907, .letterLineHome0908, .letterLineHome0909, .letterLineHome0910, .letterLineHome0913 {
+  animation: flickr .2s ease-in-out 0.09s 4 alternate both;
+}
+
+/*tenth letter animation */
+/*Y*/
+.letterLineHome1004, .letterLineHome1006, .letterLineHome1012 {
+  animation: flickr .3s ease-in-out .05s 2 alternate both;
+}
+
+/*first letter animation Projects*/
+
+/*second letter animation Projects*/
+/*P*/
+.letterLineProjects0201, .letterLineProjects0202, .letterLineProjects0203, .letterLineProjects0207, .letterLineProjects0208, .letterLineProjects0209, .letterLineProjects0210{
+  animation: flickr .02s ease-in-out .0003s 8 alternate both;
+}
+
+/*third letter animation Projects*/
+/*R*/
+.letterLineProjects0301, .letterLineProjects0302, .letterLineProjects0303, .letterLineProjects0307, .letterLineProjects0308, .letterLineProjects0309, .letterLineProjects0310, .letterLineProjects0313 {
+  animation: flickr .03s ease-in-out .0014s 20 alternate both;
+}
+
+/*fourth letter animation Projects*/
+/*O*/
+.letterLineProjects0401, .letterLineProjects0402, .letterLineProjects0403, .letterLineProjects0407, .letterLineProjects0410, .letterLineProjects0414, .letterLineProjects0415, .letterLineProjects0416 {
+  animation: flickr .005s ease-in-out .0005s 96 alternate both;
+}
+
+/*fifth letter animation Projects*/
+/*J*/
+.letterLineProjects0501, .letterLineProjects0502, .letterLineProjects0505, .letterLineProjects0510, .letterLineProjects0512, .letterLineProjects0515 {
+  animation: flickr .004s ease-in-out .0001s 126 alternate both;
+}
+
+/*sixth letter animation Projects*/
+/*E*/
+.letterLineProjects0601, .letterLineProjects0602, .letterLineProjects0603, .letterLineProjects0608, .letterLineProjects0610, .letterLineProjects0615, .letterLineProjects0616 {
+  animation: flickr .09s ease-in-out .0009s 6 alternate both;
+}
+
+/*seventh letter animation Projects*/
+/*C*/
+.letterLineProjects0701, .letterLineProjects0702, .letterLineProjects0703, .letterLineProjects0710, .letterLineProjects0715, .letterLineProjects0716 {
+  animation: flickr .055s ease-in-out .025s 12 alternate both;
+}
+
+/*eighth letter animation Projects*/
+/*T*/
+.letterLineProjects0801, .letterLineProjects0802, .letterLineProjects0805, .letterLineProjects0812{
+  animation: flickr .005s ease-in-out .02s 194 alternate both;
+}
+
+/*ninth letter animation Projects*/
+/*S*/
+.letterLineProjects0901, .letterLineProjects0902, .letterLineProjects0903, .letterLineProjects0908, .letterLineProjects0909, .letterLineProjects0914, .letterLineProjects0915, .letterLineProjects0916 {
+  animation: flickr .01s ease-in-out 0.009s 106 alternate both;
+}
+
+/*tenth letter animation Projects */
+
+/*first letter animation AboutTJ*/
+
+/*second letter animation AboutTJ*/
+/*A*/
+.letterLineAboutTJ0201, .letterLineAboutTJ0202, .letterLineAboutTJ0203, .letterLineAboutTJ0207, .letterLineAboutTJ0208, .letterLineAboutTJ0209, .letterLineAboutTJ0210, .letterLineAboutTJ0214 {
+  animation: flickr .02s ease-in-out .0003s 12 alternate both;
+}
+
+/*third letter animation AboutTJ*/
+/*B*/
+.letterLineAboutTJ0301, .letterLineAboutTJ0302, .letterLineAboutTJ0303, .letterLineAboutTJ0306, .letterLineAboutTJ0308, .letterLineAboutTJ0310, .letterLineAboutTJ0313, .letterLineAboutTJ0315, .letterLineAboutTJ0316 {
+  animation: flickr .03s ease-in-out .0014s 16 alternate both;
+}
+
+/*fourth letter animation AboutTJ*/
+/*O*/
+.letterLineAboutTJ0401, .letterLineAboutTJ0402, .letterLineAboutTJ0403, .letterLineAboutTJ0407, .letterLineAboutTJ0410, .letterLineAboutTJ0414, .letterLineAboutTJ0415, .letterLineAboutTJ0416 {
+  animation: flickr .005s ease-in-out .0005s 98 alternate both;
+}
+
+/*fifth letter animation AboutTJ*/
+/*U*/
+.letterLineAboutTJ0503, .letterLineAboutTJ0507, .letterLineAboutTJ0510, .letterLineAboutTJ0514, .letterLineAboutTJ0515, .letterLineAboutTJ0516 {
+  animation: flickr .004s ease-in-out .0001s 126 alternate both;
+}
+
+/*sixth letter animation AboutTJ*/
+/*T*/
+.letterLineAboutTJ0601, .letterLineAboutTJ0602, .letterLineAboutTJ0605, .letterLineAboutTJ0612 {
+  animation: flickr .09s ease-in-out .0009s 6 alternate both;
+}
+
+/*seventh letter animation AboutTJ*/
+
+/*eighth letter animation AboutTJ*/
+/*T*/
+.letterLineAboutTJ0801, .letterLineAboutTJ0802, .letterLineAboutTJ0805, .letterLineAboutTJ0812{
+  animation: flickr .005s ease-in-out .02s 294 alternate both;
+}
+
+/*ninth letter animation AboutTJ*/
+/*J*/
+.letterLineAboutTJ0901, .letterLineAboutTJ0902, .letterLineAboutTJ0905, .letterLineAboutTJ0910, .letterLineAboutTJ0912, .letterLineAboutTJ0915 {
+  animation: flickr .01s ease-in-out 0.009s 106 alternate both;
+}
+
+/*tenth letter animation AboutTJ*/
+
+/*first letter animation Contact*/
+
+/*second letter animation Contact*/
+/*C*/
+.letterLineContact0201, .letterLineContact0202, .letterLineContact0203, .letterLineContact0210, .letterLineContact0215, .letterLineContact0216 {
+  animation: flickr .02s ease-in-out .0003s 12 alternate both;
+}
+
+/*third letter animation Contact*/
+/*O*/
+.letterLineContact0301, .letterLineContact0302, .letterLineContact0303, .letterLineContact0307, .letterLineContact0310, .letterLineContact0314, .letterLineContact0315, .letterLineContact0316 {
+  animation: flickr .03s ease-in-out .0014s 18 alternate both;
+}
+
+/*fourth letter animation Contact*/
+/*N*/
+.letterLineContact0403, .letterLineContact0404, .letterLineContact0407, .letterLineContact0410, .letterLineContact0413, .letterLineContact0414 {
+  animation: flickr .005s ease-in-out .0005s 88 alternate both;
+}
+
+/*fifth letter animation Contact*/
+/*T*/
+.letterLineContact0501, .letterLineContact0502, .letterLineContact0505, .letterLineContact0512 {
+  animation: flickr .004s ease-in-out .0001s 144 alternate both;
+}
+
+/*sixth letter animation Contact*/
+/*A*/
+.letterLineContact0601, .letterLineContact0602, .letterLineContact0603,.letterLineContact0607, .letterLineContact0608,.letterLineContact0609, .letterLineContact0610, .letterLineContact0614 {
+  animation: flickr .09s ease-in-out .0009s 6 alternate both;
+}
+
+/*seventh letter animation Contact*/
+/*C*/
+.letterLineContact0701, .letterLineContact0702, .letterLineContact0703, .letterLineContact0710, .letterLineContact0715, .letterLineContact0716 {
+  animation: flickr .055s ease-in-out .025s 12 alternate both;
+}
+
+/*eighth letter animation Contact*/
+/*T*/
+.letterLineContact0801, .letterLineContact0802, .letterLineContact0805, .letterLineContact0812{
+  animation: flickr .005s ease-in-out .02s 224 alternate both;
+}
+
+/*ninth letter animation Contact*/
+
+/*tenth letter animation Contact */
+
+
+@keyframes flickr {
+  35%, 37%, 39%, 41%, 100% {
+    background: #272d34;
+    border-color: #272d34;
+    box-shadow: 0px 0px 0px 0px #272d34;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    background: #F1F4F5;
+    border-color: #F1F4F5;
+    box-shadow: 0px 0px 15px 3px #18E5BC;
+
+
+  }
+}
+
+@keyframes letters {
+  35%, 37%, 39%, 41%, 100% {
+    color: #F1F4F5;
+    text-shadow: 0px 0px 45px #18E5BC;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    color: #272d34;
+    text-shadow: 0px 0px 0px #272d34;
+  }
+}
+
+
