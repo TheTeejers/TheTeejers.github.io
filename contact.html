@@ -1,17 +1,25 @@
+<?php
+if($_POST["message"]) {
+    mail("tjcancode@gmail.com", "Form to email message", $_POST["body"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TJ Loughry</title>
+  <title>TJ Loughry Contact</title>
 
-  <link rel="stylesheet" href="./css/main2.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
-<header>
-  <div class="headerName headerNameOn">TJ LOUGHRY</div>
-  <div class="headerLinks"><a href="./">HOME</a></div>
+<body onload="createRain();">
+<section class='rain'>
+<header class='headerRain'>
+  <div class="headerName headerNameOn"><a href="./">TJ LOUGHRY</a></div>
+  <div class="headerLinks"><a href="./resume.html">RESUME</a></div>
   <div class="headerLinks"><a href="./projects.html">PROJECTS</a></div>
-  <div class="headerLinks"><a href="./abouttj.html">ABOUT TJ</a></div>
-  <div class="headerLinks"><a href="./contact.html">CONTACT</a></div>
+  <div class="headerLinks"><a href="./about.html">ABOUT</a></div>
+  <div class="headerLinks">CONTACT</div>
 </header>
 
   <div class="pageTitleContainer">
@@ -351,6 +359,24 @@
 
 
   </div>
+
+  <div class="contactInfo">
+    <div class="alert">YOUR MESSAGE HAS BEEN SENT</div>
+    <li>EMAIL:<a className='mailLink' href="mailto:tjcancode@gmail.com?subject=I%20saw%20your%20website%20and%20would%20like%20to%20chat!">TJCANCODE@GMAIL.COM</a></li>
+    <li>PHONE NUMBER: <a href="tel:1-512-826-6923">512.826.6923</a></li>
+    <form id='contactForm' method='post' enctype='text/plain'>
+      <input id='name' type='text' name='name' placeholder='Name (required)' required><br>
+      <input id='company' type='text' name='company' placeholder='Company'><br>
+      <input id='email' type='email' name='email' placeholder='Email (required)' required><br>
+      <input id='phoneNumber' type='text' name='phoneNumber' placeholder='Phone Number'><br>
+      <textarea id='message' name='message' rows='5' placeholder='Type your message here' required></textarea><br>
+      <input type='submit' value='Send Message'>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src='email_form.js'></script>
+  <script src='rain.js'></script>
+</section>
 </body>
 </html>
 

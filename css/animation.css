@@ -58,8 +58,8 @@ a:hover {
 
 
 .headerLinks {
-margin: 20px 10px 10px 10px;
-font-family: 'Comfortaa', cursive;
+  margin: 20px 10px 10px 10px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .pageTitleContainer {
@@ -224,7 +224,7 @@ font-family: 'Comfortaa', cursive;
   border: 3px solid #272d34;
   border-radius: 9px;
 }
-/*end bottom rox*/
+/*end bottom row*/
 
 /*first letter animation*/
 /*T*/
@@ -237,8 +237,6 @@ font-family: 'Comfortaa', cursive;
 .letterLineHome0201, .letterLineHome0202, .letterLineHome0205, .letterLineHome0210, .letterLineHome0212, .letterLineHome0215 {
   animation: flickr .06s ease-in-out .00001s 8 alternate both;
 }
-
-/*third letter animation*/
 
 /*fourth letter animation*/
 /*L*/
@@ -281,8 +279,6 @@ font-family: 'Comfortaa', cursive;
 .letterLineHome1004, .letterLineHome1006, .letterLineHome1012 {
   animation: flickr .3s ease-in-out .05s 2 alternate both;
 }
-
-/*first letter animation Projects*/
 
 /*second letter animation Projects*/
 /*P*/
@@ -332,57 +328,35 @@ font-family: 'Comfortaa', cursive;
   animation: flickr .01s ease-in-out 0.009s 106 alternate both;
 }
 
-/*tenth letter animation Projects */
-
-/*first letter animation AboutTJ*/
-
-/*second letter animation AboutTJ*/
+/*third letter animation About*/
 /*A*/
-.letterLineAboutTJ0201, .letterLineAboutTJ0202, .letterLineAboutTJ0203, .letterLineAboutTJ0207, .letterLineAboutTJ0208, .letterLineAboutTJ0209, .letterLineAboutTJ0210, .letterLineAboutTJ0214 {
+.letterLineAbout0301, .letterLineAbout0302, .letterLineAbout0303, .letterLineAbout0307, .letterLineAbout0308, .letterLineAbout0309, .letterLineAbout0310, .letterLineAbout0314 {
   animation: flickr .02s ease-in-out .0003s 12 alternate both;
 }
 
-/*third letter animation AboutTJ*/
+/*fourth letter animation About*/
 /*B*/
-.letterLineAboutTJ0301, .letterLineAboutTJ0302, .letterLineAboutTJ0303, .letterLineAboutTJ0306, .letterLineAboutTJ0308, .letterLineAboutTJ0310, .letterLineAboutTJ0313, .letterLineAboutTJ0315, .letterLineAboutTJ0316 {
+.letterLineAbout0401, .letterLineAbout0402, .letterLineAbout0403, .letterLineAbout0406, .letterLineAbout0408, .letterLineAbout0410, .letterLineAbout0413, .letterLineAbout0415, .letterLineAbout0416 {
   animation: flickr .03s ease-in-out .0014s 16 alternate both;
 }
 
-/*fourth letter animation AboutTJ*/
+/*fifth letter animation About*/
 /*O*/
-.letterLineAboutTJ0401, .letterLineAboutTJ0402, .letterLineAboutTJ0403, .letterLineAboutTJ0407, .letterLineAboutTJ0410, .letterLineAboutTJ0414, .letterLineAboutTJ0415, .letterLineAboutTJ0416 {
+.letterLineAbout0501, .letterLineAbout0502, .letterLineAbout0503, .letterLineAbout0507, .letterLineAbout0510, .letterLineAbout0514, .letterLineAbout0515, .letterLineAbout0516 {
   animation: flickr .005s ease-in-out .0005s 98 alternate both;
 }
 
-/*fifth letter animation AboutTJ*/
+/*sixth letter animation About*/
 /*U*/
-.letterLineAboutTJ0503, .letterLineAboutTJ0507, .letterLineAboutTJ0510, .letterLineAboutTJ0514, .letterLineAboutTJ0515, .letterLineAboutTJ0516 {
+.letterLineAbout0603, .letterLineAbout0607, .letterLineAbout0610, .letterLineAbout0614, .letterLineAbout0615, .letterLineAbout0616 {
   animation: flickr .004s ease-in-out .0001s 126 alternate both;
 }
 
-/*sixth letter animation AboutTJ*/
+/*seventh letter animation About*/
 /*T*/
-.letterLineAboutTJ0601, .letterLineAboutTJ0602, .letterLineAboutTJ0605, .letterLineAboutTJ0612 {
+.letterLineAbout0701, .letterLineAbout0702, .letterLineAbout0705, .letterLineAbout0712 {
   animation: flickr .09s ease-in-out .0009s 6 alternate both;
 }
-
-/*seventh letter animation AboutTJ*/
-
-/*eighth letter animation AboutTJ*/
-/*T*/
-.letterLineAboutTJ0801, .letterLineAboutTJ0802, .letterLineAboutTJ0805, .letterLineAboutTJ0812{
-  animation: flickr .005s ease-in-out .02s 294 alternate both;
-}
-
-/*ninth letter animation AboutTJ*/
-/*J*/
-.letterLineAboutTJ0901, .letterLineAboutTJ0902, .letterLineAboutTJ0905, .letterLineAboutTJ0910, .letterLineAboutTJ0912, .letterLineAboutTJ0915 {
-  animation: flickr .01s ease-in-out 0.009s 106 alternate both;
-}
-
-/*tenth letter animation AboutTJ*/
-
-/*first letter animation Contact*/
 
 /*second letter animation Contact*/
 /*C*/
@@ -426,9 +400,41 @@ font-family: 'Comfortaa', cursive;
   animation: flickr .005s ease-in-out .02s 224 alternate both;
 }
 
-/*ninth letter animation Contact*/
+/*First letter animation Resume*/
+/*R*/
+.letterLineResume0301, .letterLineResume0302, .letterLineResume0303, .letterLineResume0307, .letterLineResume0308, .letterLineResume0309, .letterLineResume0310, .letterLineResume0313 {
+  animation: flickr .03s ease-in-out .0014s 18 alternate both;
+}
 
-/*tenth letter animation Contact */
+/*fourth letter animation Resume*/
+/*E*/
+.letterLineResume0401, .letterLineResume0402, .letterLineResume0403, .letterLineResume0408, .letterLineResume0410, .letterLineResume0415, .letterLineResume0416 {
+  animation: flickr .005s ease-in-out .0005s 88 alternate both;
+}
+
+/*fifth letter animation Resume*/
+/*S*/
+.letterLineResume0501, .letterLineResume0502, .letterLineResume0503, .letterLineResume0508, .letterLineResume0509, .letterLineResume0514, .letterLineResume0515, .letterLineResume0516 {
+  animation: flickr .004s ease-in-out .0001s 144 alternate both;
+}
+
+/*sixth letter animation Resume*/
+/*U*/
+.letterLineResume0603, .letterLineResume0607, .letterLineResume0610,.letterLineResume0614, .letterLineResume0615,.letterLineResume0616 {
+  animation: flickr .09s ease-in-out .0009s 6 alternate both;
+}
+
+/*seventh letter animation Resume*/
+/*M*/
+.letterLineResume0703, .letterLineResume0704, .letterLineResume0706, .letterLineResume0707, .letterLineResume0710, .letterLineResume0714 {
+  animation: flickr .055s ease-in-out .025s 12 alternate both;
+}
+
+/*eighth letter animation Resume*/
+/*E*/
+.letterLineResume0801, .letterLineResume0802, .letterLineResume0803, .letterLineResume0808, .letterLineResume0810, .letterLineResume0815, .letterLineResume0816 {
+  animation: flickr .005s ease-in-out .02s 224 alternate both;
+}
 
 
 @keyframes flickr {
@@ -455,6 +461,25 @@ font-family: 'Comfortaa', cursive;
     color: #272d34;
     text-shadow: 0px 0px 0px #272d34;
   }
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #18E5BC;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  line-height: 30px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  color: #18E5BC;
+  text-shadow: 0px 0px 45px #18E5BC;
+
 }
 
 
