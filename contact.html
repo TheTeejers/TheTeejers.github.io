@@ -10,6 +10,7 @@ if($_POST["message"]) {
   <title>TJ Loughry Contact</title>
 
   <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body onload="createRain();">
@@ -364,13 +365,19 @@ if($_POST["message"]) {
     <div class="alert">YOUR MESSAGE HAS BEEN SENT</div>
     <li>EMAIL:<a className='mailLink' href="mailto:tjcancode@gmail.com?subject=I%20saw%20your%20website%20and%20would%20like%20to%20chat!">TJCANCODE@GMAIL.COM</a></li>
     <li>PHONE NUMBER: <a href="tel:1-512-826-6923">512.826.6923</a></li>
+
     <form id='contactForm' method='post' enctype='text/plain'>
       <input id='name' type='text' name='name' placeholder='Name (required)' required><br>
+
       <input id='company' type='text' name='company' placeholder='Company'><br>
+
       <input id='email' type='email' name='email' placeholder='Email (required)' required><br>
+
       <input id='phoneNumber' type='text' name='phoneNumber' placeholder='Phone Number'><br>
+
       <textarea id='message' name='message' rows='5' placeholder='Type your message here' required></textarea><br>
-      <input type='submit' value='Send Message'>
+
+      <input class='contactSubmitButton' type='submit' value='Send Message'>
     </form>
   </div>
   <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
