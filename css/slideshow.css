@@ -2,7 +2,7 @@
   width: 400px;
   height: 200px;
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   perspective: 1000px;
@@ -17,9 +17,38 @@
   transition: transform 1s;
   overflow: hidden;
   box-shadow: 0px 0px 45px 4px #18E5BC;
+  top:75%;
 }
 
-.image1 {
+.image1, .image2, .image3, .image4, .image5, .image6 {
   width: 100%;
 
+}
+
+.imageSelectorSection {
+  top: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftButton {
+  top: 50%;
+}
+
+.rightButton {
+  top: 50%;
+  right: 0%;
+}
+
+.rightButton, .leftButton {
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  color: #18E5BC;
+  text-shadow: 0px 0px 45px #18E5BC;
+  cursor:pointer;
+}
+
+.rightButton:focus, .leftButton:focus {
+  outline: none;
 }

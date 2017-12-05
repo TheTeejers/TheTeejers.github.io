@@ -1,4 +1,5 @@
 var items, length, deg, z, move = 0;
+var time = 3000;
 
 function rotate(direction){
   move += direction;
@@ -7,6 +8,7 @@ function rotate(direction){
     items[i].style.transform = 'rotateY('+(deg*(i+move))+'deg) translateZ('+z+'px)';
   }
 }
+
 
 function load(){
   var items = document.getElementsByClassName('item');
@@ -19,5 +21,6 @@ function load(){
     items[i].style.transform = 'rotateY('+(deg*i)+'deg) translateZ('+z+'px)';
   }
 }
+
 
 window.addEventListener('load', load);
