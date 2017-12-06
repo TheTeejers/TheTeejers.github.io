@@ -178,25 +178,25 @@ html, body {
 /*first letter animation*/
 /*T*/
 .letterLineHome0101, .letterLineHome0102, .letterLineHome0105, .letterLineHome0112 {
-  animation: flickr .08s ease-in-out .004s 10 alternate both;
+  animation: flickr .08s ease-in-out .004s 14 alternate both;
 }
 
 /*second letter animation*/
 /*J*/
 .letterLineHome0201, .letterLineHome0202, .letterLineHome0205, .letterLineHome0210, .letterLineHome0212, .letterLineHome0215 {
-  animation: flickr .06s ease-in-out .00001s 18 alternate both;
+  animation: flickr .06s ease-in-out .00001s 12 alternate both;
 }
 
 /*fourth letter animation*/
 /*L*/
 .letterLineHome0403, .letterLineHome0410, .letterLineHome0415, .letterLineHome0416 {
-  animation: flickr .009s ease-in-out .0006s 30 alternate both;
+  animation: flickr .009s ease-in-out .0006s 60 alternate both;
 }
 
 /*fifth letter animation*/
 /*O*/
 .letterLineHome0501, .letterLineHome0502, .letterLineHome0503, .letterLineHome0507, .letterLineHome0510, .letterLineHome0514, .letterLineHome0515, .letterLineHome0516 {
-  animation: flickr .04s ease-in-out .09s 12 alternate both;
+  animation: flickr .04s ease-in-out .09s 24 alternate both;
 }
 
 /*sixth letter animation*/
@@ -208,25 +208,25 @@ html, body {
 /*seventh letter animation*/
 /*G*/
 .letterLineHome0701, .letterLineHome0702, .letterLineHome0703, .letterLineHome0709, .letterLineHome0710, .letterLineHome0714, .letterLineHome0715, .letterLineHome0716 {
-  animation: flickr .05s ease-in-out .025s 16 alternate both;
+  animation: flickr .05s ease-in-out .025s 32 alternate both;
 }
 
 /*eighth letter animation*/
 /*H*/
 .letterLineHome0803, .letterLineHome0807, .letterLineHome0808, .letterLineHome0809, .letterLineHome0810, .letterLineHome0814 {
-  animation: flickr .005s ease-in-out .05s 404 alternate both;
+  animation: flickr .005s ease-in-out .05s 508 alternate both;
 }
 
 /*ninth letter animation*/
 /*R*/
 .letterLineHome0901, .letterLineHome0902, .letterLineHome0903, .letterLineHome0907, .letterLineHome0908, .letterLineHome0909, .letterLineHome0910, .letterLineHome0913 {
-  animation: flickr .2s ease-in-out 0.09s 8 alternate both;
+  animation: flickr .2s ease-in-out 0.09s 4 alternate both;
 }
 
 /*tenth letter animation */
 /*Y*/
 .letterLineHome1004, .letterLineHome1006, .letterLineHome1012 {
-  animation: flickr .3s ease-in-out .05s 4 alternate both;
+  animation: flickr .03s ease-in-out .05s 40 alternate both;
 }
 
 /*second letter animation Projects*/
