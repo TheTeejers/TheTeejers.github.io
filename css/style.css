@@ -77,4 +77,43 @@ a:hover {
   text-shadow: 0px 0px 45px #18E5BC;
 }
 
+.resumeContainer {
+  margin: 100px 250px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-size: 45px;
+  overflow-wrap: break-word;
+}
+
+p {
+  font-size: 20px;
+  /*text-indent: 35px;*/
+  font-family: 'Poiret One', cursive;
+
+}
+
+.workDescription {
+  padding-left: 150px;
+}
+
+.position {
+  padding-left: 75px;
+}
+
+.minorTitle {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.sectionTitle {
+  margin-bottom: 60px;
+}
+
+.sectionName {
+  font-size: 45px;
+  text-shadow: 0px 0px 45px #18E5BC;
+}
 
