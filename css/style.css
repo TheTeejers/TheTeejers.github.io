@@ -56,7 +56,7 @@ a {
   border: 1px solid none;
   border-radius: 10px;
   color: #272d34;
-  text-shadow: 1px 1px 1px yellow;
+  text-shadow: 1px 1px 1px white;
 }
 
 a:hover {
@@ -163,7 +163,7 @@ p::first-letter {
   text-decoration: none;
 }
 
-.socialIcon:hover,  {
+.socialIcon:hover  {
   border: 1px solid none;
   border-radius: 10px;
   filter: drop-shadow(0px 0px 2px #18E5BC);
@@ -184,9 +184,11 @@ input, textarea {
 .contactSubmitButton:hover {
   cursor: pointer;
   box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;
-
 }
 
+.contactHere {
+  text-decoration: underline;
+}
 
 
 
