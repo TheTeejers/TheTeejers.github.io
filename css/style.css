@@ -52,15 +52,18 @@ a {
 }
 
 .headerLinksInactive:hover {
-  box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;
-  border: 1px solid none;
-  border-radius: 10px;
+  /*box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;*/
+  filter: drop-shadow(0px 0px 2px #18E5BC);
+  /*border: 1px solid none;*/
+  /*border-radius: 10px;*/
   color: #272d34;
   text-shadow: 1px 1px 1px white;
 }
 
 a:hover {
   color: #272d34;
+  text-shadow: 1px 1px 1px white;
+  filter: drop-shadow(0px 0px 2px #18E5BC);
 }
 
 .headerName, .headerNameOn {
