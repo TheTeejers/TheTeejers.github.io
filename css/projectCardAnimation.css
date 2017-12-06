@@ -35,7 +35,7 @@ font-family: 'Architects Daughter', cursive;*/
 .back {
   position: absolute;
   transform: perspective(2000px) rotateY(180deg);
-  background: blue;
+  background: black;
   width: 40%;
   height: 25%;
   border-radius: 10px;
@@ -43,6 +43,9 @@ font-family: 'Architects Daughter', cursive;*/
   transition: transform .5s linear 0s;
   border: solid 1px white;
   box-shadow: 0px 0px 45px 4px #18E5BC;
+  color: white;
+  overflow: scroll;
+  word-wrap: break-word;
 }
 
 .projectDisplayContainer:hover > .front{
@@ -58,6 +61,30 @@ font-family: 'Architects Daughter', cursive;*/
   /*height: 100%;*/
   /*vertical-align: middle;*/
 
+}
+
+.projectParagraph::first-letter{
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.projectParagraph {
+  padding: 25px;
+  text-indent: 50px;
+  letter-spacing: 5px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.projectTag {
+  cursor: pointer;
+}
+
+.projectTag:hover {
+  box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;
+  border: 1px solid none;
+  border-radius: 10px;
+  color: #272d34;
+  text-shadow: 1px 1px 1px yellow;
 }
 
 
