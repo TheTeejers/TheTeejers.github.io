@@ -412,11 +412,6 @@ html, body {
   }
 }
 
-@media (max-width: 980px) {
-  .letterbox02 {
-    width: 10px;
-    z-index: -1;
-  }
-}
+
 
 
