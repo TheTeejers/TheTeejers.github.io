@@ -32,12 +32,12 @@ footer {
   border-top: 1px solid gray;
   margin-top: 45px;
   border-radius: 50px;
-  bottom: 0px;
+  bottom: -1px;
   position: fixed;
   width: 90%;
   left: 5%;
   background-color: #272d34;
-  height: 50px;
+  height: 60px;
   z-index: 1;
 }
 
@@ -230,7 +230,12 @@ select {
   .headerLinks {
     font-size: 25px;
   }
-
+  header {
+    margin-bottom: 30px;
+  }
+  .pageTitleContainer {
+    padding-top: 30px;
+  }
 }
 
 
