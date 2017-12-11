@@ -123,17 +123,19 @@ font-family: 'Architects Daughter', cursive;*/
   .projectsContainer {
     display: flex;
     flex-direction: column;
+    margin-left: 0px;
   }
   .projectDisplayContainer {
-    width: 95%;
+    width: 100%;
     height: 320px;
-    margin-left: 0px;
+    /*margin-right: 50px;*/
     overflow-y: auto;
   }
   .front, .back{
-    width: 95%;
+    width: 90%;
     height: 16%;
     margin: auto;
+    /*margin: 0px;*/
   }
 
 }

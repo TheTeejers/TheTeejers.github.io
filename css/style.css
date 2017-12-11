@@ -218,11 +218,19 @@ input, textarea {
   text-shadow: 0px 0px 45px #18E5BC;
 }
 
+select {
+  display: none;
+}
+
 @media (max-width: 1080px) {
   .letterBox02 {
     width: 10px;
     z-index: -1;
   }
+  .headerLinks {
+    font-size: 25px;
+  }
+
 }
 
 

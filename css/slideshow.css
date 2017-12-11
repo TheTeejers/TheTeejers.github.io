@@ -22,14 +22,19 @@
 }
 
 .image1, .image2, .image3, .image4, .image5, .image6 {
-  width: 100%;
-
+  width: 105%;
+  margin-left: -10px;
+  background-position: cover;
 }
 
 .imageSelectorSection {
-  top: 20%;
-  display: flex;
-  flex-direction: row;
+  /*top: 20%;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+}
+
+.item {
+align-items: center;
 }
 
 .rightButton, .leftButton {
