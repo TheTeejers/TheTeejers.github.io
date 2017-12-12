@@ -9,6 +9,7 @@
   };
   firebase.initializeApp(config);
 
+
 //referenece message collection
 
 var messagesRef = firebase.database().ref('messages')
@@ -66,3 +67,6 @@ function saveMessage(name, email, company, phoneNumber, message){
     message: message
   });
 }
+
+
+
