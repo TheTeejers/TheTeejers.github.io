@@ -53,7 +53,6 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
 // get data
 function gotData(data){
   var inputData = [];
-  // console.log(data.val());
   for(var x in data.val()) {
     inputData.push(data.val()[x]);
   }
