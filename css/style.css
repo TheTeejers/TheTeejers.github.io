@@ -235,18 +235,19 @@ select {
     font-size: 20px;
   }
 
-.hamburger, .cross {
+.hamburger {
   visibility: visible;
   background: none;
   color: white;
   border: none;
-  font-size: 40px;
+  font-size: 60px;
   cursor: pointer;
   outline: none;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 .headerName, .headerNameOn {
+  font-size: 40px;
   flex-grow: 0;
   margin-right: 0px;
 }
