@@ -15,8 +15,8 @@ html, body {
 
 header {
   display: flex;
-  border-bottom: 1px solid gray;
-  border-radius: 50px;
+  border-bottom: 2px solid gray;
+  border-radius: 0px 0px 50px 50px;
   position: fixed;
   top: 0px;
   width: 90%;
@@ -26,12 +26,16 @@ header {
   margin-bottom: 50px;
 }
 
+.hamburger, .menu {
+  visibility: hidden;
+}
+
 footer {
   display: flex;
   justify-content: center;
-  border-top: 1px solid gray;
+  border-top: 2px solid gray;
   margin-top: 45px;
-  border-radius: 50px;
+  border-radius: 50px 50px 0px 0px;
   bottom: -1px;
   position: fixed;
   width: 90%;
@@ -228,13 +232,89 @@ select {
     z-index: -1;
   }
   .headerLinks {
-    font-size: 25px;
+    font-size: 20px;
   }
+
+.hamburger, .cross {
+  visibility: visible;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 400px;
+}
+
+.headerName, .headerNameOn {
+  flex-grow: 0;
+  margin-right: 0px;
+}
+
+.headerLinks {
+  visibility: hidden;
+  width: 0px;
+  margin: 0px;
+}
+
   header {
     margin-bottom: 30px;
   }
+
   .pageTitleContainer {
     padding-top: 30px;
+  }
+
+  .menu {
+    visibility: visible;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 25px;
+    width: 90%;
+    background: none;
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+
+  }
+
+  .menu ul {
+    font-family: 'Orbitron', sans-serif;
+    padding: 0px;
+  }
+
+  .menu li {
+    background: #000;
+    border-radius: 50px;
+    display: block;
+    vertical-align: 50%;
+    padding: 30px 0 30px 0;
+    border: gray 2px solid;
+    transition: color 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out;
+  }
+
+  .menu li:hover {
+    display: block;
+    filter: drop-shadow(0px 0px 2px #18E5BC);
+    color: #272d34;
+    text-shadow: 1px 1px 1px white;
+    transition: color 300ms ease-in-out;
+    transition: filter 300ms ease-in-out;
+  }
+
+  .menu a:hover {
+    text-decoration:none;
+    color: #272d34;
+    text-shadow: 1px 1px 1px white;
+    filter: drop-shadow(0px 0px 2px #18E5BC);
+    transition: color 200ms ease-in-out;
+    transition: filter 200ms ease-in-out;
+  }
+
+  .menu a {
+    padding: 0px;
+    margin: 0px;
   }
 }
 
