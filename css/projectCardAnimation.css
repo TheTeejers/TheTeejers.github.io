@@ -71,7 +71,7 @@ font-family: 'Architects Daughter', cursive;*/
   transform: perspective(2000px) rotateY(0deg);
 }
 
-.ufhomeImage, .tictactoeImage, .pupfetcherImage, .fooddiceImage {
+.ufhomeImage, .tictactoeImage, .pupfetcherImage, .fooddiceImage, .hackathonImage {
   max-width: 100%;
   min-height: 100%;
   overflow: hidden;
