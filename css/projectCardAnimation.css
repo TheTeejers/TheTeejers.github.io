@@ -111,13 +111,13 @@ font-family: 'Architects Daughter', cursive;*/
 .projectList {
   padding: 0px 50px;
   letter-spacing: 5px;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
 .projectUL {
   padding: 0px 50px;
   letter-spacing: 5px;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
 .projectUL::first-letter{
